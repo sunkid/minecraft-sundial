@@ -27,7 +27,7 @@ Additionally, you will have to have php installed on your server.
 INSTALLATION
 
  1) download the distribution from the link below and unzip all files in your map's HTML
-    directory
+    directory; this directory must also contain the two files listed above under requirements!
 
     https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
 
