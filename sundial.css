@@ -1,0 +1,22 @@
+.datetime {
+	position: relative;
+	z-index: 20;
+	top: -50px;
+	left: 50px;
+	width: 130px;
+	text-align: right;
+	font-size: 8pt
+}
+
+.mcdial {
+	border: 1px	solid #CCC;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width: 180px;
+	height: 40px;
+	background-color: white;
+	padding: 10px;
+	position: absolute;
+	top: 55px;
+	right: 5px;
+}
