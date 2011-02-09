@@ -8,39 +8,19 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	<script type="text/javascript" src="jQueryRotate.js"></script>
 	<script type="text/javascript" src="sundial.js"></script>
-<style>
-.datetime {
-	position: relative;
-	z-index: 20;
-	top: -50px;
-	left: 50px;
-	width: 130px;
-	text-align: right;
-	font-size: 8pt
-}
-
-.mcdial {
-	border: 1px	solid #CCC;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	width: 180px;
-	height: 40px;
-	background-color: white;
-	padding: 10px;
-	position: absolute;
-	top: 55px;
-	right: 5px;
-}
-</style>
+	<link rel="stylesheet" href="sundial.css" type="text/css" />
 </head>
 
 <body>
 <div id="mcdial" class="mcdial">
-	<img src="mask.png" id="mask" width="50" height="50" style="position: absolute; z-index: 10">
-	<img src="dial.png" id="dial" width="50" height="50" style="position: relative; display: block">
+	<img src="mask.png" id="mask">
+	<img src="dial.png" id="dial">
 	<div id="date" class="datetime">DATE</div>
 	<div id="time" class="datetime">TIME</div>
-	<div id="debug" class="datetime" style="visibility: hidden;"></div>
+	<div id="debug" class="datetime"></div>
+	<div id="sdcredits" class="datetime">
+		<a class="sdlink" href="https://github.com/sunkid/minecraft-sundial">minecraft sundial</a>
+	</div>
 </div>
 </body>
 </html>
