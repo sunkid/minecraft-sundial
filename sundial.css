@@ -26,7 +26,7 @@ This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed 
 	z-index: 20;
 	top: -50px;
 	left: 50px;
-	width: 130px;
+	width: 100px;
 	text-align: right;
 	font-size: 8pt
 }
@@ -35,7 +35,7 @@ This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed 
 	border: 1px	solid #CCC;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	width: 180px;
+	width: 150px;
 	height: 40px;
 	background-color: white;
 	padding: 10px;
@@ -54,7 +54,7 @@ This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed 
 
 #sdcredits {
     font-size: 7pt; 
-    left: 5px;
+    left: 15px;
 }
 
 #debug { visibility: hidden; }

@@ -24,15 +24,12 @@ This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed 
 // how many times per second to run the rotate function below
 var syncEvery = 1;
 
-// time zone offset from UTC
-var tzOffset = -8;
-
 var d = new Date();
 var serverClock = 0;
 
 // milliseconds of wall time to be added for server "date"
 // sunrise is at 22800, noon at 6000, sunset at 13200, and midnight at 18000
-var tAdjust = (21600-tzOffset*3600)*1000;
+var tAdjust = 21600*1000;
 	
 // rotate the dial and refresh the date/time information
 function rotate() {
@@ -41,8 +38,8 @@ function rotate() {
 
 	// refresh the server "date" and time
 	d.setTime(serverClock*3600+tAdjust);
-	$('#date').text(d.toDateString());
-	$('#time').text(d.toTimeString());
+	$('#date').text(d.toUTCString().substr(0,16));
+	$('#time').text(d.toUTCString().substr(17,8));
 
 	// rotate the dial
 	var deg = (serverClock%24000)*-0.015-30;
