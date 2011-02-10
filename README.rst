@@ -26,25 +26,21 @@ Additionally, you will have to have php installed on your server.
    
 INSTALLATION
 
-# download the distribution from the link below and unzip all files in your map's HTML
+#. download the distribution from the link below and unzip all files in your map's HTML
   directory; this directory must also contain the two files listed above under requirements!
 
 		https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
 
-# edit your map's html file (e.g. index.html) and add the following
+#. edit your map's html file (e.g. index.html) and add the following
 
-  in the <head> section (you can skip the first line if jQuery is already there):
-
-::
+in the <head> section (you can skip the first line if jQuery is already there)::
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
 		<script type="text/javascript" src="jQueryRotate.js"></script>
 		<script type="text/javascript" src="sundial.js"></script>
 		<link rel="stylesheet" href="sundial.css" type="text/css"/>
 
-  in the <body> section right after the <div> containing the map:
-
-::
+in the <body> section right after the <div> containing the map::
 
 		<div id="mcdial" class="mcdial">
 		<img src="mask.png" id="mask">
@@ -57,27 +53,23 @@ INSTALLATION
 		</div>
 		</div>
 
-# edit getServerTime.php script to point to your world's level.dat file
-# test getServerTime.php by running
-
-::
+#. edit getServerTime.php script to point to your world's level.dat file
+#. test getServerTime.php by running::
 
 	php getServerTime.php
 
-  the output should look something like this:
+the output should look something like this::
 
-::
+    [105064250]
 
-		[105064250]
-
-# open your modified map from a browser and you should see the sundial in the top right corner.
+#. open your modified map from a browser and you should see the sundial in the top right corner.
 
 
 LICENSING
 
 This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed under a dual license:
 
-Non-Commercial Use:
+:Non-Commercial Use:
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -91,6 +83,6 @@ Non-Commercial Use:
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  
-Commercial Use:
+:Commercial Use:
     Please contact sunkid@iminurnetz.com
 
