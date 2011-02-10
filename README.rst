@@ -12,7 +12,7 @@ On startup and occasionally afterwards, the widget retrieves the current number 
 wall-clock seconds since the epoch, where a wall-clock second is 72 seconds on a minecraft world. 
 Between updates from the server, the time, date, and dial are updated using the browser's clock.
 
-Demo
+Examples
 ____
 
 `Static snapshot of a map generated with Minecraft-Overviewer with sundial widget <http://sunkid.github.com/minecraft-sundial>`_.
