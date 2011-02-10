@@ -20,6 +20,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+  function recordOutboundLink(link, category, action) {
+	try {
+	  var myTracker=_gat._getTrackerByName();
+	  _gaq.push(['myTracker._trackEvent', ' + category + ', ' + action + ']);
+	  setTimeout('document.location = "' + link.href + '"', 100)
+	}catch(err){}
+  }
   </script>
 </head>
 <body>
@@ -57,9 +64,9 @@
 	our little private world.
 	<p/>
 	<div style="text-align: right; font-size: 10pt">
-		<a href="https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip">Download</a> |
-		<a href="mailto:sunkid@iminurnetz.com">Contact</a> |
-		<a href="https://github.com/sunkid/minecraft-sundial/">Repository</a>
+		<a href="https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip" onClick="recordOutboundLink(this, 'Outbound Links', 'download');return false;">Download</a> |
+		<a href="mailto:sunkid@iminurnetz.com" onClick="recordOutboundLink(this, 'Outbound Links', 'email');return false;">Contact</a> |
+		<a href="https://github.com/sunkid/minecraft-sundial/" onClick="recordOutboundLink(this, 'Outbound Links', 'repository');return false;">Repository</a>
 	</div>
   </div>
   <div id="mcmap" style="width: 100%; height: 100%; position: relative; background-color: rgb(229, 227, 223); overflow-x: hidden; overflow-y: hidden;">
@@ -1149,7 +1156,7 @@
 	<div id="time" class="datetime">TIME</div>
 	<div id="debug" class="datetime">&nbsp;</div>
 	<div id="sdcredits" class="datetime">
-		<a class="sdlink" href="https://github.com/sunkid/minecraft-sundial">minecraft sundial</a>
+		<a class="sdlink" href="https://github.com/sunkid/minecraft-sundial" onClick="recordOutboundLink(this, 'Outbound Links', 'widget_link');return false;">minecraft sundial</a>
 	</div>
   </div>
   <div style="position: relative; left: 50px; bottom: 80px; z-index: 100">
