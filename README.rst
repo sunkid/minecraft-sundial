@@ -26,12 +26,15 @@ Additionally, you will have to have php installed on your server.
    
 INSTALLATION
 
-#) download the distribution from the link below and unzip all files in your map's HTML directory;
-   this directory must also contain the two files listed above under requirements!
+#) download the distribution::
 
 		https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
 
+#) unzip all files in your map's HTML directory; this directory must also contain the two files
+   listed above under requirements
+
 #) edit your map's html file (e.g. index.html) and add the following
+
    a. in the <head> section (you can skip the first line if jQuery is already there)::
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
@@ -68,7 +71,7 @@ LICENSING
 
 This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed under a dual license:
 
-:Non-Commercial Use:
+Non-Commercial Use:
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -82,6 +85,6 @@ This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  
-:Commercial Use:
+Commercial Use:
     Please contact sunkid@iminurnetz.com
 
