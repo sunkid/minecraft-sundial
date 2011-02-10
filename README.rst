@@ -1,5 +1,5 @@
 ====================
-Minecraft Sundial
+MINECRAFT SUNDIAL
 ====================
 By sunkid
 
@@ -12,7 +12,12 @@ On startup and occasionally afterwards, the widget retrieves the current number 
 wall-clock seconds since the epoch, where a wall-clock second is 72 seconds on a minecraft world. 
 Between updates from the server, the time, date, and dial are updated using the browser's clock.
 
-REQUIREMENTS
+Demo
+____
+
+.. _Static Map with Sundial Widget: http://sunkid.github.com/minecraft-sundial
+
+Requirements
 ____________
 
 This widget uses and depends on the following files that are not part of this distribution:
@@ -25,7 +30,7 @@ This widget uses and depends on the following files that are not part of this di
    
 Additionally, you will have to have php installed on your server.
    
-INSTALLATION
+Installation
 ____________
 
 #) download the distribution:
@@ -69,7 +74,7 @@ ____________
 #) open your modified map from a browser and you should see the sundial in the top right corner.
 
 
-LICENSING
+Licensing
 _________
 
 This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed under a dual license:
