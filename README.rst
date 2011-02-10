@@ -15,7 +15,7 @@ Between updates from the server, the time, date, and dial are updated using the 
 Demo
 ____
 
-`Static Map with Sundial Widget <http://sunkid.github.com/minecraft-sundial>`_.
+`Static snapshot of a map generated with Minecraft-Overviewer with sundial widget <http://sunkid.github.com/minecraft-sundial>`_.
 
 Requirements
 ____________
