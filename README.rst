@@ -30,21 +30,21 @@ ____________
 
 #) download the distribution:
 
-		https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
+   https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
 
 #) unzip all files in your map's HTML directory; this directory must also contain the two files
    listed above under requirements
 
 #) edit your map's html file (e.g. index.html) and add the following
 
-   a) in the <head> section (you can skip the first line if jQuery is already there)::
+   (1) in the <head> section (you can skip the first line if jQuery is already there)::
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
 		<script type="text/javascript" src="jQueryRotate.js"></script>
 		<script type="text/javascript" src="sundial.js"></script>
 		<link rel="stylesheet" href="sundial.css" type="text/css"/>
 
-   b) in the <body> section right after the <div> containing the map::
+   (2) in the <body> section right after the <div> containing the map::
 
 		<div id="mcdial" class="mcdial">
 		<img src="mask.png" id="mask">
