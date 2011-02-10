@@ -13,6 +13,7 @@ wall-clock seconds since the epoch, where a wall-clock second is 72 seconds on a
 Between updates from the server, the time, date, and dial are updated using the browser's clock.
 
 REQUIREMENTS
+____________
 
 This widget uses and depends on the following files that are not part of this distribution:
 
@@ -25,8 +26,9 @@ This widget uses and depends on the following files that are not part of this di
 Additionally, you will have to have php installed on your server.
    
 INSTALLATION
+____________
 
-#) download the distribution::
+#) download the distribution:
 
 		https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
 
@@ -35,14 +37,14 @@ INSTALLATION
 
 #) edit your map's html file (e.g. index.html) and add the following
 
-   a. in the <head> section (you can skip the first line if jQuery is already there)::
+   a) in the <head> section (you can skip the first line if jQuery is already there)::
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
 		<script type="text/javascript" src="jQueryRotate.js"></script>
 		<script type="text/javascript" src="sundial.js"></script>
 		<link rel="stylesheet" href="sundial.css" type="text/css"/>
 
-   #. in the <body> section right after the <div> containing the map::
+   b) in the <body> section right after the <div> containing the map::
 
 		<div id="mcdial" class="mcdial">
 		<img src="mask.png" id="mask">
@@ -68,6 +70,7 @@ INSTALLATION
 
 
 LICENSING
+_________
 
 This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed under a dual license:
 
