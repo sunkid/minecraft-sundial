@@ -44,25 +44,25 @@ ____________
 
    1. Any HTML map:
 
-		   (1) in the <head> section (you can skip the first line if jQuery is already there)::
+      (1) in the <head> section (you can skip the first line if jQuery is already there)::
 
-				<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
-				<script type="text/javascript" src="http://jqueryrotate.googlecode.com/files/jQueryRotate.1.7.j"></script>
-				<script type="text/javascript" src="sundial.js"></script>
-				<link rel="stylesheet" href="sundial.css" type="text/css"/>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+		<script type="text/javascript" src="http://jqueryrotate.googlecode.com/files/jQueryRotate.1.7.j"></script>
+		<script type="text/javascript" src="sundial.js"></script>
+		<link rel="stylesheet" href="sundial.css" type="text/css"/>
 
-		   (2) in the <body> section right after the <div> containing the map::
+      (2) in the <body> section right after the <div> containing the map::
 
-				<div id="mcdial" class="mcdial">
-				<img src="mask.png" id="mask">
-				<img src="dial.png" id="dial">
-				<div id="date" class="datetime">DATE</div>
-				<div id="time" class="datetime">TIME</div>
-				<div id="debug" class="datetime" style="visibility: hidden;"></div>
-				<div id="sdcredits" class="datetime">
-					<a class="sdlink" href="https://github.com/sunkid/minecraft-sundial">minecraft sundial</a>
-				</div>
-				</div>
+		<div id="mcdial" class="mcdial">
+		<img src="mask.png" id="mask">
+		<img src="dial.png" id="dial">
+		<div id="date" class="datetime">DATE</div>
+		<div id="time" class="datetime">TIME</div>
+		<div id="debug" class="datetime" style="visibility: hidden;"></div>
+		<div id="sdcredits" class="datetime">
+			<a class="sdlink" href="https://github.com/sunkid/minecraft-sundial">minecraft sundial</a>
+		</div>
+		</div>
 	
 	2. Supported mapping tools:
 
