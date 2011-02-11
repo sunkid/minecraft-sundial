@@ -18,6 +18,7 @@ Usage::
 		cd /minecraft/map/
 		patch < /minecraft/sundial/util/tectonicus1.18.patch
 
+Adjust the paths above according to your own installation! If you run Tectonicus again, you will need to apply the patch again as well.
 
 
 
