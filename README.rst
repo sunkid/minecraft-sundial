@@ -58,7 +58,7 @@ ____________
 		<img src="dial.png" id="dial">
 		<div id="date" class="datetime">DATE</div>
 		<div id="time" class="datetime">TIME</div>
-		<div id="debug" class="datetime" style="visibility: hidden;"></div>
+		<div id="debug" class="datetime" style="visibility: hidden;">&nbsp;</div>
 		<div id="sdcredits" class="datetime">
 			<a class="sdlink" href="https://github.com/sunkid/minecraft-sundial">minecraft sundial</a>
 		</div>
