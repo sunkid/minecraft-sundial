@@ -25,7 +25,7 @@ This software is copyright by sunkid <sunkid@iminurnetz.com> and is distributed 
 var syncEvery = 1;
 
 var d = new Date();
-var serverClock = 106781398;
+var serverClock = 106761398;
 var staticDate = new Date().getTime();
 
 // milliseconds of wall time to be added for server "date"
