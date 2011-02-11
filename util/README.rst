@@ -11,9 +11,9 @@ __________
 
 Files::
 	
-	tectonicus1.18.patch - simple patch to add sundial to a Tectonicus page
+		tectonicus1.18.patch - simple patch to add sundial to a Tectonicus page
 
-	Usage::
+Usage::
 
 		cd /minecraft/map/
 		patch < /minecraft/sundial/util/tectonicus1.18.patch
