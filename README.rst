@@ -64,9 +64,9 @@ ____________
 		</div>
 		</div>
 	
-	2. Supported mapping tools:
+   2. Supported mapping tools:
 
-		Check the util/ directory for supported tools and patches
+      Check the util/ directory for supported tools and patches
 
 #) edit getServerTime.php script to point to your world's level.dat file
 #) test getServerTime.php by running::
