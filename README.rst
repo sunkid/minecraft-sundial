@@ -23,7 +23,7 @@ ____________
 This widget uses and depends on the following files that are not part of this distribution:
 
 * jQueryRotate.js by Wilq32 (Pawel Witkowski)
-  available from http://code.google.com/p/jqueryrotate/
+  available from http://code.google.com/p/jqueryrotate/ (no need to download, linked to from google site)
 
 * nbt.class.php by Justin Martian
   available from http://thefrozenfire.com/2010/12/nbt-decoderencoder-for-php/
@@ -37,15 +37,15 @@ ____________
 
    https://github.com/sunkid/minecraft-sundial/raw/master/dist/sundial.zip
 
-#) unzip all files in your map's HTML directory; this directory must also contain the two files
-   listed above under requirements
+#) unzip all files in your map's HTML directory; this directory must also contain the nbt.class.php
+   file listed above under requirements
 
 #) edit your map's html file (e.g. index.html) and add the following
 
    (1) in the <head> section (you can skip the first line if jQuery is already there)::
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
-		<script type="text/javascript" src="jQueryRotate.js"></script>
+		<script type="text/javascript" src="http://jqueryrotate.googlecode.com/files/jQueryRotate.1.7.j"></script>
 		<script type="text/javascript" src="sundial.js"></script>
 		<link rel="stylesheet" href="sundial.css" type="text/css"/>
 
