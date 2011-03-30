@@ -47,7 +47,7 @@ ____________
       (1) in the <head> section (you can skip the first line if jQuery is already there)::
 
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
-		<script type="text/javascript" src="http://jqueryrotate.googlecode.com/files/jQueryRotate.1.7.j"></script>
+		<script type="text/javascript" src="http://jqueryrotate.googlecode.com/files/jQueryRotate.1.7.js"></script>
 		<script type="text/javascript" src="sundial.js"></script>
 		<link rel="stylesheet" href="sundial.css" type="text/css"/>
 
