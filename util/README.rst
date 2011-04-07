@@ -21,5 +21,19 @@ Usage::
 Adjust the paths above according to your own installation! If you run Tectonicus again, you will need to apply the patch again as well.
 
 
+Minecraft-Overviewer
+____________________
+
+`Download and Discussion <>`_.
+
+Files::
+
+		Minecraft-Overviewer.patch - patch contributed by `sluther (Scott Luther)<https://github.com/sluther>`_.
+
+Usage::
+
+		see above
+
+
 
 
