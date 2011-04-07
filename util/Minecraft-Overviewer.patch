@@ -1,0 +1,27 @@
+diff --git a/web_assets/index.html b/web_assets/index.html
+index 89554e8..0a61b49 100644
+--- a/web_assets/index.html
++++ b/web_assets/index.html
+@@ -11,9 +11,22 @@
+ <script type="text/javascript" src="functions.js"></script>
+ <script type="text/javascript" src="markers.js"></script>
+ <script type="text/javascript" src="regions.js"></script>
++<script type="text/javascript" src="http://jqueryrotate.googlecode.com/files/jQueryRotate.1.7.js"></script>
++<script type="text/javascript" src="sundial.js"></script>
++<link rel="stylesheet" href="sundial.css" type="text/css"/>
+ </head>
+ <!-- Generated at: {time} -->
+ <body onload="initialize()">
+   <div id="mcmap" style="width:100%; height:100%"></div>
++    <div id="mcdial" class="mcdial">
++      <img src="mask.png" id="mask">
++      <img src="dial.png" id="dial">
++      <div id="date" class="datetime">DATE</div>
++      <div id="time" class="datetime">TIME</div>
++      <div id="debug" class="datetime" style="visibility: hidden;">&nbsp;</div>
++      <div id="sdcredits" class="datetime">
++        <a class="sdlink" href="https://github.com/sunkid/minecraft-sundial">minecraft sundial</a>
++      </div>
++  </div>
+ </body>
+ </html>
