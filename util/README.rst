@@ -24,11 +24,12 @@ Adjust the paths above according to your own installation! If you run Tectonicus
 Minecraft-Overviewer
 ____________________
 
-`Download and Discussion <>`_.
+`Download and Wiki <https://github.com/brownan/Minecraft-Overviewer/wiki>`_.
+Patch contributed by `sluther (Scott Luther) <https://github.com/sluther>`_.
 
 Files::
 
-		Minecraft-Overviewer.patch - patch contributed by `sluther (Scott Luther)<https://github.com/sluther>`_.
+		Minecraft-Overviewer.patch
 
 Usage::
 
