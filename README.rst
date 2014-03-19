@@ -26,7 +26,7 @@ This widget uses and depends on the following files that are not part of this di
   available from http://code.google.com/p/jqueryrotate/ (no need to download, linked to from google site)
 
 * nbt.class.php by Justin Martian
-  available from http://thefrozenfire.com/2010/12/nbt-decoderencoder-for-php/
+  available from https://github.com/TheFrozenFire/PHP-NBT-Decoder-Encoder
    
 Additionally, you will have to have php installed on your server.
    
